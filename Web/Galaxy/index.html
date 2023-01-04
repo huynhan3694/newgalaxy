@@ -64,6 +64,7 @@
             sizes.push(Math.random() * 1.5 + 0.5);
             pushShift();
         }
+        
 
         let g = new THREE.BufferGeometry().setFromPoints(pts);
         g.setAttribute("sizes", new THREE.Float32BufferAttribute(sizes, 1));
